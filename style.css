@@ -1,0 +1,29 @@
+body::before{
+    display: block;
+    content: '';
+    height: 100px;
+}
+.header, .header tr,.header th,.header td{
+    border: 1px solid black;
+}
+.header{
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+}
+.header th, .header td{
+    padding: 20px;
+}
+.red{
+    background-color: red;
+}
+.diamond td{
+    height: 20px;
+    width: 10px;
+}
+.diamond{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
